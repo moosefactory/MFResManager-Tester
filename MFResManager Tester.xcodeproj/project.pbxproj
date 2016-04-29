@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC4241AD1CD392D700E4A23E /* prague.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC4241AC1CD392D700E4A23E /* prague.jpg */; };
+		BCF361421CD331DA001A5245 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF361411CD331DA001A5245 /* main.m */; };
+		BCF361451CD331DA001A5245 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF361441CD331DA001A5245 /* AppDelegate.m */; };
+		BCF361481CD331DA001A5245 /* MFResGetterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF361471CD331DA001A5245 /* MFResGetterViewController.m */; };
+		BCF3614B1CD331DA001A5245 /* MFKeyResGetterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF3614A1CD331DA001A5245 /* MFKeyResGetterViewController.m */; };
+		BCF3614E1CD331DA001A5245 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF3614C1CD331DA001A5245 /* Main.storyboard */; };
+		BCF361501CD331DA001A5245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF3614F1CD331DA001A5245 /* Assets.xcassets */; };
+		BCF361531CD331DA001A5245 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF361511CD331DA001A5245 /* LaunchScreen.storyboard */; };
+		BCF3615E1CD331DB001A5245 /* MFResManager_TesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF3615D1CD331DB001A5245 /* MFResManager_TesterTests.m */; };
+		BCF361691CD331DB001A5245 /* MFResManager_TesterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF361681CD331DB001A5245 /* MFResManager_TesterUITests.m */; };
+		BCF361A91CD33F50001A5245 /* MFResManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF361A81CD33F50001A5245 /* MFResManager.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		BCF361BA1CD343D1001A5245 /* images in Resources */ = {isa = PBXBuildFile; fileRef = BCF361B91CD343D1001A5245 /* images */; };
+		BCFBCF301CD358FE004A2CE8 /* MFResManagerSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFBCF2F1CD358FE004A2CE8 /* MFResManagerSettingsViewController.m */; };
+		BCFBCF341CD36336004A2CE8 /* missing_image.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFBCF321CD36336004A2CE8 /* missing_image.png */; };
+		BCFBCF351CD36336004A2CE8 /* missing_movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BCFBCF331CD36336004A2CE8 /* missing_movie.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCF3615A1CD331DB001A5245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCF361351CD331DA001A5245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF3613C1CD331DA001A5245;
+			remoteInfo = "MFResManager Tester";
+		};
+		BCF361651CD331DB001A5245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCF361351CD331DA001A5245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF3613C1CD331DA001A5245;
+			remoteInfo = "MFResManager Tester";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC4241AC1CD392D700E4A23E /* prague.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = prague.jpg; sourceTree = "<group>"; };
+		BCF3613D1CD331DA001A5245 /* MFResManager Tester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MFResManager Tester.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF361411CD331DA001A5245 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCF361431CD331DA001A5245 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCF361441CD331DA001A5245 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCF361461CD331DA001A5245 /* MFResGetterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFResGetterViewController.h; sourceTree = "<group>"; };
+		BCF361471CD331DA001A5245 /* MFResGetterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFResGetterViewController.m; sourceTree = "<group>"; };
+		BCF361491CD331DA001A5245 /* MFKeyResGetterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFKeyResGetterViewController.h; sourceTree = "<group>"; };
+		BCF3614A1CD331DA001A5245 /* MFKeyResGetterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFKeyResGetterViewController.m; sourceTree = "<group>"; };
+		BCF3614D1CD331DA001A5245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCF3614F1CD331DA001A5245 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCF361521CD331DA001A5245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCF361541CD331DA001A5245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF361591CD331DB001A5245 /* MFResManager TesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MFResManager TesterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF3615D1CD331DB001A5245 /* MFResManager_TesterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFResManager_TesterTests.m; sourceTree = "<group>"; };
+		BCF3615F1CD331DB001A5245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF361641CD331DB001A5245 /* MFResManager TesterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MFResManager TesterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF361681CD331DB001A5245 /* MFResManager_TesterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFResManager_TesterUITests.m; sourceTree = "<group>"; };
+		BCF3616A1CD331DB001A5245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF361A81CD33F50001A5245 /* MFResManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MFResManager.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/MFResManager_Tester-cxplcvtdkelimudxsyjyeujlxdez/Build/Products/Debug-iphonesimulator/MFResManager.framework"; sourceTree = "<group>"; };
+		BCF361B91CD343D1001A5245 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		BCFBCF2E1CD358FE004A2CE8 /* MFResManagerSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFResManagerSettingsViewController.h; sourceTree = "<group>"; };
+		BCFBCF2F1CD358FE004A2CE8 /* MFResManagerSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFResManagerSettingsViewController.m; sourceTree = "<group>"; };
+		BCFBCF321CD36336004A2CE8 /* missing_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = missing_image.png; sourceTree = "<group>"; };
+		BCFBCF331CD36336004A2CE8 /* missing_movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = missing_movie.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCF3613A1CD331DA001A5245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF361A91CD33F50001A5245 /* MFResManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF361561CD331DB001A5245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF361611CD331DB001A5245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCF361341CD331DA001A5245 = {
+			isa = PBXGroup;
+			children = (
+				BCF361A81CD33F50001A5245 /* MFResManager.framework */,
+				BCF3613F1CD331DA001A5245 /* MFResManager Tester */,
+				BCF3615C1CD331DB001A5245 /* MFResManager TesterTests */,
+				BCF361671CD331DB001A5245 /* MFResManager TesterUITests */,
+				BCF3613E1CD331DA001A5245 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCF3613E1CD331DA001A5245 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCF3613D1CD331DA001A5245 /* MFResManager Tester.app */,
+				BCF361591CD331DB001A5245 /* MFResManager TesterTests.xctest */,
+				BCF361641CD331DB001A5245 /* MFResManager TesterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCF3613F1CD331DA001A5245 /* MFResManager Tester */ = {
+			isa = PBXGroup;
+			children = (
+				BCF361431CD331DA001A5245 /* AppDelegate.h */,
+				BCF361441CD331DA001A5245 /* AppDelegate.m */,
+				BCF361461CD331DA001A5245 /* MFResGetterViewController.h */,
+				BCF361471CD331DA001A5245 /* MFResGetterViewController.m */,
+				BCF361491CD331DA001A5245 /* MFKeyResGetterViewController.h */,
+				BCF3614A1CD331DA001A5245 /* MFKeyResGetterViewController.m */,
+				BCFBCF2E1CD358FE004A2CE8 /* MFResManagerSettingsViewController.h */,
+				BCFBCF2F1CD358FE004A2CE8 /* MFResManagerSettingsViewController.m */,
+				BCF3614C1CD331DA001A5245 /* Main.storyboard */,
+				BCF3614F1CD331DA001A5245 /* Assets.xcassets */,
+				BCF361511CD331DA001A5245 /* LaunchScreen.storyboard */,
+				BCF361541CD331DA001A5245 /* Info.plist */,
+				BCFBCF311CD36336004A2CE8 /* missing_resources */,
+				BC4241AC1CD392D700E4A23E /* prague.jpg */,
+				BCF361B91CD343D1001A5245 /* images */,
+				BCF361401CD331DA001A5245 /* Supporting Files */,
+			);
+			path = "MFResManager Tester";
+			sourceTree = "<group>";
+		};
+		BCF361401CD331DA001A5245 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCF361411CD331DA001A5245 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCF3615C1CD331DB001A5245 /* MFResManager TesterTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCF3615D1CD331DB001A5245 /* MFResManager_TesterTests.m */,
+				BCF3615F1CD331DB001A5245 /* Info.plist */,
+			);
+			path = "MFResManager TesterTests";
+			sourceTree = "<group>";
+		};
+		BCF361671CD331DB001A5245 /* MFResManager TesterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCF361681CD331DB001A5245 /* MFResManager_TesterUITests.m */,
+				BCF3616A1CD331DB001A5245 /* Info.plist */,
+			);
+			path = "MFResManager TesterUITests";
+			sourceTree = "<group>";
+		};
+		BCFBCF311CD36336004A2CE8 /* missing_resources */ = {
+			isa = PBXGroup;
+			children = (
+				BCFBCF321CD36336004A2CE8 /* missing_image.png */,
+				BCFBCF331CD36336004A2CE8 /* missing_movie.mp4 */,
+			);
+			path = missing_resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCF3613C1CD331DA001A5245 /* MFResManager Tester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF3616D1CD331DB001A5245 /* Build configuration list for PBXNativeTarget "MFResManager Tester" */;
+			buildPhases = (
+				BCF361391CD331DA001A5245 /* Sources */,
+				BCF3613A1CD331DA001A5245 /* Frameworks */,
+				BCF3613B1CD331DA001A5245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MFResManager Tester";
+			productName = "MFResManager Tester";
+			productReference = BCF3613D1CD331DA001A5245 /* MFResManager Tester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCF361581CD331DB001A5245 /* MFResManager TesterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF361701CD331DB001A5245 /* Build configuration list for PBXNativeTarget "MFResManager TesterTests" */;
+			buildPhases = (
+				BCF361551CD331DB001A5245 /* Sources */,
+				BCF361561CD331DB001A5245 /* Frameworks */,
+				BCF361571CD331DB001A5245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCF3615B1CD331DB001A5245 /* PBXTargetDependency */,
+			);
+			name = "MFResManager TesterTests";
+			productName = "MFResManager TesterTests";
+			productReference = BCF361591CD331DB001A5245 /* MFResManager TesterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCF361631CD331DB001A5245 /* MFResManager TesterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF361731CD331DB001A5245 /* Build configuration list for PBXNativeTarget "MFResManager TesterUITests" */;
+			buildPhases = (
+				BCF361601CD331DB001A5245 /* Sources */,
+				BCF361611CD331DB001A5245 /* Frameworks */,
+				BCF361621CD331DB001A5245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCF361661CD331DB001A5245 /* PBXTargetDependency */,
+			);
+			name = "MFResManager TesterUITests";
+			productName = "MFResManager TesterUITests";
+			productReference = BCF361641CD331DB001A5245 /* MFResManager TesterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCF361351CD331DA001A5245 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MooseFactory;
+				TargetAttributes = {
+					BCF3613C1CD331DA001A5245 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BCF361581CD331DB001A5245 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BCF3613C1CD331DA001A5245;
+					};
+					BCF361631CD331DB001A5245 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BCF3613C1CD331DA001A5245;
+					};
+				};
+			};
+			buildConfigurationList = BCF361381CD331DA001A5245 /* Build configuration list for PBXProject "MFResManager Tester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCF361341CD331DA001A5245;
+			productRefGroup = BCF3613E1CD331DA001A5245 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCF3613C1CD331DA001A5245 /* MFResManager Tester */,
+				BCF361581CD331DB001A5245 /* MFResManager TesterTests */,
+				BCF361631CD331DB001A5245 /* MFResManager TesterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCF3613B1CD331DA001A5245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF361BA1CD343D1001A5245 /* images in Resources */,
+				BCFBCF351CD36336004A2CE8 /* missing_movie.mp4 in Resources */,
+				BCF361531CD331DA001A5245 /* LaunchScreen.storyboard in Resources */,
+				BCFBCF341CD36336004A2CE8 /* missing_image.png in Resources */,
+				BCF361501CD331DA001A5245 /* Assets.xcassets in Resources */,
+				BC4241AD1CD392D700E4A23E /* prague.jpg in Resources */,
+				BCF3614E1CD331DA001A5245 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF361571CD331DB001A5245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF361621CD331DB001A5245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCF361391CD331DA001A5245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF3614B1CD331DA001A5245 /* MFKeyResGetterViewController.m in Sources */,
+				BCF361451CD331DA001A5245 /* AppDelegate.m in Sources */,
+				BCFBCF301CD358FE004A2CE8 /* MFResManagerSettingsViewController.m in Sources */,
+				BCF361481CD331DA001A5245 /* MFResGetterViewController.m in Sources */,
+				BCF361421CD331DA001A5245 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF361551CD331DB001A5245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF3615E1CD331DB001A5245 /* MFResManager_TesterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF361601CD331DB001A5245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF361691CD331DB001A5245 /* MFResManager_TesterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCF3615B1CD331DB001A5245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCF3613C1CD331DA001A5245 /* MFResManager Tester */;
+			targetProxy = BCF3615A1CD331DB001A5245 /* PBXContainerItemProxy */;
+		};
+		BCF361661CD331DB001A5245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCF3613C1CD331DA001A5245 /* MFResManager Tester */;
+			targetProxy = BCF361651CD331DB001A5245 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCF3614C1CD331DA001A5245 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCF3614D1CD331DA001A5245 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCF361511CD331DA001A5245 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCF361521CD331DA001A5245 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCF3616B1CD331DB001A5245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../../MooseFactory Frameworks/MFResManager/MFResManager\"";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		BCF3616C1CD331DB001A5245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../../MooseFactory Frameworks/MFResManager/MFResManager\"";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCF3616E1CD331DB001A5245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "MFResManager Tester/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moosefactory.MFResManager-Tester";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCF3616F1CD331DB001A5245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "MFResManager Tester/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moosefactory.MFResManager-Tester";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCF361711CD331DB001A5245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MFResManager TesterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moosefactory.MFResManager-TesterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MFResManager Tester.app/MFResManager Tester";
+			};
+			name = Debug;
+		};
+		BCF361721CD331DB001A5245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MFResManager TesterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moosefactory.MFResManager-TesterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MFResManager Tester.app/MFResManager Tester";
+			};
+			name = Release;
+		};
+		BCF361741CD331DB001A5245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MFResManager TesterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moosefactory.MFResManager-TesterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MFResManager Tester";
+			};
+			name = Debug;
+		};
+		BCF361751CD331DB001A5245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MFResManager TesterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moosefactory.MFResManager-TesterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MFResManager Tester";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCF361381CD331DA001A5245 /* Build configuration list for PBXProject "MFResManager Tester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF3616B1CD331DB001A5245 /* Debug */,
+				BCF3616C1CD331DB001A5245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF3616D1CD331DB001A5245 /* Build configuration list for PBXNativeTarget "MFResManager Tester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF3616E1CD331DB001A5245 /* Debug */,
+				BCF3616F1CD331DB001A5245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF361701CD331DB001A5245 /* Build configuration list for PBXNativeTarget "MFResManager TesterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF361711CD331DB001A5245 /* Debug */,
+				BCF361721CD331DB001A5245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF361731CD331DB001A5245 /* Build configuration list for PBXNativeTarget "MFResManager TesterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF361741CD331DB001A5245 /* Debug */,
+				BCF361751CD331DB001A5245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCF361351CD331DA001A5245 /* Project object */;
+}
