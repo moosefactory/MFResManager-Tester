@@ -52,6 +52,9 @@
     }
     [MFResGetter defaultMediaGetter].behavior = behavior;
     [MFResGetter defaultMediaGetter].debugMode = debugMode;
+    
+    [MFKeyResGetter defaultMediaGetter].behavior = behavior;
+    [MFKeyResGetter defaultMediaGetter].debugMode = debugMode;
 }
 
 

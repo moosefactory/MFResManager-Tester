@@ -7,21 +7,38 @@
 //
 
 #import "MFKeyResGetterViewController.h"
+#import <MFResManager/MFResManager.h>
 
 @interface MFKeyResGetterViewController ()
 
 @end
 
+static NSArray *cities;
+static NSArray *languages;
+
 @implementation MFKeyResGetterViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+-(void)awakeFromNib
+{
+    cities = @[@"paris",@"prague",@"beijing",@"dubai",@"bug_town"];
+    languages = @[@"en",@"fr",@"cz",@"zh",@"ar",@"it"];
+    [MFKeyResGetter defaultMediaGetter].baseDirectoryPath = @"images";
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(IBAction)languageChanged:(id)sender
+{
+    self.language = languages[((UISegmentedControl*)sender).selectedSegmentIndex];
+    [self updateInterface];
+}
+
+-(void)updateInterface
+{
+    NSString* city = cities[self.tabIndex];
+    
+    self.imageView.image = [MFKeyResGetter imageForKey:@"image" group:city language:self.language];
+    self.label.text = [MFKeyResGetter textForKey:@"title" group:city language:self.language];
+    self.infoLabel.text = [MFKeyResGetter textForKey:@"message" group:city language:self.language];
+
 }
 
 @end

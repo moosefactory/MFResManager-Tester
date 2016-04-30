@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>city_menu</key>
+	<dict>
+		<key>en</key>
+		<array>
+			<string>Paris</string>
+			<string>Prague</string>
+			<string>Beijing</string>
+			<string>Dubai</string>
+			<string>Bug</string>
+		</array>
+		<key>fr</key>
+		<array>
+			<string>Paris</string>
+			<string>Prague</string>
+			<string>Beijing</string>
+			<string>Dubai</string>
+			<string>Bug</string>
+		</array>
+		<key>cz</key>
+		<array>
+			<string>Paříž</string>
+			<string>Praha</string>
+			<string>Peking</string>
+			<string>Dubaj</string>
+			<string>Bug</string>
+		</array>
+		<key>zh</key>
+		<array>
+			<string>巴黎</string>
+			<string>布拉格</string>
+			<string>北京</string>
+			<string>迪拜</string>
+			<string>Bug</string>
+		</array>
+		<key>ar</key>
+		<array>
+			<string>باريس</string>
+			<string>براغ</string>
+			<string>بكين</string>
+			<string>دبي</string>
+			<string>Bug</string>
+		</array>
+	</dict>
+</dict>
+</plist>

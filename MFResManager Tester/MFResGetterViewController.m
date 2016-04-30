@@ -25,7 +25,7 @@
 
 -(void)viewWillAppear:(BOOL)animated
 {
-    [MFResGetter defaultMediaGetter].directoryPath = @"images";
+    [MFResGetter defaultMediaGetter].baseDirectoryPath = @"images";
     [self updateInterface];
 }
 

@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MFResGetterViewController.h"
 
-@interface MFKeyResGetterViewController : UIViewController
+@interface MFKeyResGetterViewController : MFResGetterViewController
 
+-(IBAction)languageChanged:(id)sender;
+
+@property(nonatomic,strong) NSString* language;
+
+@property(nonatomic,weak) IBOutlet UISegmentedControl* citiesControl;
 
 @end
 

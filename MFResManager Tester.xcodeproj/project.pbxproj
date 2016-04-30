@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC310E011CD4E725009CE91B /* toc.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC310E001CD4E725009CE91B /* toc.plist */; };
+		BC310E031CD4FBCF009CE91B /* interface.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC310E021CD4FBCF009CE91B /* interface.plist */; };
 		BC4241AD1CD392D700E4A23E /* prague.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC4241AC1CD392D700E4A23E /* prague.jpg */; };
 		BCF361421CD331DA001A5245 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF361411CD331DA001A5245 /* main.m */; };
 		BCF361451CD331DA001A5245 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF361441CD331DA001A5245 /* AppDelegate.m */; };
@@ -42,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC310E001CD4E725009CE91B /* toc.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = toc.plist; sourceTree = "<group>"; };
+		BC310E021CD4FBCF009CE91B /* interface.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = interface.plist; sourceTree = "<group>"; };
+		BC310E041CD52342009CE91B /* CONTRIBUTE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTE.md; sourceTree = "<group>"; };
+		BC310E051CD52342009CE91B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BC310E061CD52343009CE91B /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		BC4241AC1CD392D700E4A23E /* prague.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = prague.jpg; sourceTree = "<group>"; };
 		BCF3613D1CD331DA001A5245 /* MFResManager Tester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MFResManager Tester.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF361411CD331DA001A5245 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -98,6 +105,9 @@
 		BCF361341CD331DA001A5245 = {
 			isa = PBXGroup;
 			children = (
+				BC310E041CD52342009CE91B /* CONTRIBUTE.md */,
+				BC310E051CD52342009CE91B /* LICENSE */,
+				BC310E061CD52343009CE91B /* readme.md */,
 				BCF361A81CD33F50001A5245 /* MFResManager.framework */,
 				BCF3613F1CD331DA001A5245 /* MFResManager Tester */,
 				BCF3615C1CD331DB001A5245 /* MFResManager TesterTests */,
@@ -133,6 +143,8 @@
 				BCF361541CD331DA001A5245 /* Info.plist */,
 				BCFBCF311CD36336004A2CE8 /* missing_resources */,
 				BC4241AC1CD392D700E4A23E /* prague.jpg */,
+				BC310E001CD4E725009CE91B /* toc.plist */,
+				BC310E021CD4FBCF009CE91B /* interface.plist */,
 				BCF361B91CD343D1001A5245 /* images */,
 				BCF361401CD331DA001A5245 /* Supporting Files */,
 			);
@@ -278,6 +290,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCF361BA1CD343D1001A5245 /* images in Resources */,
+				BC310E011CD4E725009CE91B /* toc.plist in Resources */,
+				BC310E031CD4FBCF009CE91B /* interface.plist in Resources */,
 				BCFBCF351CD36336004A2CE8 /* missing_movie.mp4 in Resources */,
 				BCF361531CD331DA001A5245 /* LaunchScreen.storyboard in Resources */,
 				BCFBCF341CD36336004A2CE8 /* missing_image.png in Resources */,

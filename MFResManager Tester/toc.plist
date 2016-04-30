@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>paris</key>
+	<dict>
+		<key>image</key>
+		<string>paris</string>
+		<key>title</key>
+		<dict>
+			<key>en</key>
+			<string>Paris</string>
+			<key>cz</key>
+			<string>Paříž</string>
+			<key>ar</key>
+			<string>باريس</string>
+			<key>zh</key>
+			<string>巴黎</string>
+		</dict>
+		<key>message</key>
+		<dict>
+			<key>en</key>
+			<string>Welcome in Paris</string>
+			<key>fr</key>
+			<string>Bienvenue à Paris</string>
+			<key>cz</key>
+			<string>Vítejte do Paříže</string>
+			<key>zh</key>
+			<string>欢迎在巴黎</string>
+			<key>ar</key>
+			<string>أهلا وسهلا بك في باريس</string>
+		</dict>
+	</dict>
+	<key>prague</key>
+	<dict>
+		<key>image</key>
+		<string>prague</string>
+		<key>title</key>
+		<dict>
+			<key>en</key>
+			<string>Prague</string>
+			<key>ar</key>
+			<string>براغ</string>
+			<key>zh</key>
+			<string>布拉格</string>
+			<key>cz</key>
+			<string>Praha</string>
+		</dict>
+		<key>message</key>
+		<dict>
+			<key>en</key>
+			<string>Welcome in Prague</string>
+			<key>fr</key>
+			<string>Bienvenue à Prague</string>
+			<key>zh</key>
+			<string>مرحبا بكم في براغ</string>
+			<key>ar</key>
+			<string>أهلا وسهلا بك في باريس</string>
+			<key>cz</key>
+			<string>Vítejte v Praze</string>
+		</dict>
+	</dict>
+	<key>beijing</key>
+	<dict>
+		<key>image</key>
+		<string>beijing</string>
+		<key>title</key>
+		<dict>
+			<key>en</key>
+			<string>Beijing</string>
+			<key>ar</key>
+			<string>بكين</string>
+			<key>zh</key>
+			<string>北京</string>
+			<key>cz</key>
+			<string>Peking</string>
+		</dict>
+		<key>message</key>
+		<dict>
+			<key>en</key>
+			<string>Welcome in Beijing</string>
+			<key>fr</key>
+			<string>Bienvenue à Beijing</string>
+			<key>zh</key>
+			<string>欢迎在北京</string>
+			<key>ar</key>
+			<string>مرحبا بكم في بكين</string>
+			<key>cz</key>
+			<string>Vítejte v Pekingu</string>
+		</dict>
+	</dict>
+	<key>dubai</key>
+	<dict>
+		<key>image</key>
+		<string>dubai</string>
+		<key>title</key>
+		<dict>
+			<key>en</key>
+			<string>Dubai</string>
+			<key>ar</key>
+			<string>دبي</string>
+			<key>zh</key>
+			<string>迪拜</string>
+			<key>cz</key>
+			<string>Dubaj</string>
+		</dict>
+		<key>message</key>
+		<dict>
+			<key>en</key>
+			<string>Welcome in Dubai</string>
+		</dict>
+	</dict>
+	<key>bug_town</key>
+	<dict>
+		<key>title</key>
+		<string>Bug Town</string>
+	</dict>
+</dict>
+</plist>
