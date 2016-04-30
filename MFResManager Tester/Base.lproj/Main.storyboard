@@ -112,7 +112,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fu8-o4-FdA">
-                                <rect key="frame" x="-2" y="105" width="304" height="358"/>
+                                <rect key="frame" x="13" y="105" width="296" height="358"/>
                                 <subviews>
                                     <switch opaque="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TKZ-11-MVj">
                                         <rect key="frame" x="12" y="161" width="51" height="31"/>
@@ -286,7 +286,7 @@
                                     <constraint firstItem="EkH-nV-B4y" firstAttribute="top" secondItem="Yk5-6c-qvN" secondAttribute="bottom" constant="32" id="C7Y-cD-zfS"/>
                                     <constraint firstItem="TKZ-11-MVj" firstAttribute="top" secondItem="ix7-Rt-yoP" secondAttribute="bottom" constant="20" id="Ene-Mr-9vh"/>
                                     <constraint firstItem="fCf-3j-ov1" firstAttribute="leading" secondItem="EC8-ua-qXX" secondAttribute="trailing" constant="17" id="GLd-rL-RcQ"/>
-                                    <constraint firstAttribute="width" constant="304" id="GZ4-6j-O7q"/>
+                                    <constraint firstAttribute="width" constant="296" id="GZ4-6j-O7q"/>
                                     <constraint firstItem="UHi-mb-LIQ" firstAttribute="leading" secondItem="fu8-o4-FdA" secondAttribute="leading" constant="12" id="H94-ay-NcA"/>
                                     <constraint firstItem="yAn-0D-0Qr" firstAttribute="leading" secondItem="fu8-o4-FdA" secondAttribute="leading" constant="12" id="LTN-7s-rAf"/>
                                     <constraint firstItem="5yQ-yF-4aC" firstAttribute="leading" secondItem="fu8-o4-FdA" secondAttribute="leading" constant="12" id="Lom-UU-GBU"/>
@@ -337,8 +337,8 @@
                         <constraints>
                             <constraint firstItem="fu8-o4-FdA" firstAttribute="top" secondItem="PUQ-VN-X98" secondAttribute="bottom" constant="3" id="3FS-bx-e0H"/>
                             <constraint firstItem="fu8-o4-FdA" firstAttribute="centerY" secondItem="bWK-Ch-flZ" secondAttribute="centerY" id="4Lx-GW-KyY"/>
-                            <constraint firstItem="fu8-o4-FdA" firstAttribute="centerX" secondItem="bWK-Ch-flZ" secondAttribute="centerX" constant="-10" id="lps-Up-nro"/>
-                            <constraint firstItem="fu8-o4-FdA" firstAttribute="centerX" secondItem="PUQ-VN-X98" secondAttribute="centerX" id="qMw-hz-8Et"/>
+                            <constraint firstItem="fu8-o4-FdA" firstAttribute="centerX" secondItem="bWK-Ch-flZ" secondAttribute="centerX" constant="1" id="lps-Up-nro"/>
+                            <constraint firstItem="fu8-o4-FdA" firstAttribute="centerX" secondItem="PUQ-VN-X98" secondAttribute="centerX" constant="11" id="qMw-hz-8Et"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Settings" image="second" id="DMa-2Q-KB2" userLabel="Settings"/>
