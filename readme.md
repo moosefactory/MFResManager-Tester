@@ -7,6 +7,11 @@ MooseFactory Software
 # MFResManager Tester
 **Test Application for the MFResManager for iOS**
 
+1 - Download the MFResManager framework : 
+
+2 - Add it to the project !
+
+
 ## Introduction
 ---------------
 **MFResManager** is a compact iOS Utility Library providing an alternate way to access ressources in an application.
