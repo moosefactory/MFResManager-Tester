@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84B48C6CE32C02D00829C364 /* libPods-MFResManager Tester.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A8922CEB6FBF34AAF789C7 /* libPods-MFResManager Tester.a */; };
 		BC310E011CD4E725009CE91B /* toc.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC310E001CD4E725009CE91B /* toc.plist */; };
 		BC310E031CD4FBCF009CE91B /* interface.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC310E021CD4FBCF009CE91B /* interface.plist */; };
 		BC4241AD1CD392D700E4A23E /* prague.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC4241AC1CD392D700E4A23E /* prague.jpg */; };
@@ -19,11 +20,11 @@
 		BCF361531CD331DA001A5245 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF361511CD331DA001A5245 /* LaunchScreen.storyboard */; };
 		BCF3615E1CD331DB001A5245 /* MFResManager_TesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF3615D1CD331DB001A5245 /* MFResManager_TesterTests.m */; };
 		BCF361691CD331DB001A5245 /* MFResManager_TesterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF361681CD331DB001A5245 /* MFResManager_TesterUITests.m */; };
-		BCF361A91CD33F50001A5245 /* MFResManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF361A81CD33F50001A5245 /* MFResManager.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		BCF361BA1CD343D1001A5245 /* images in Resources */ = {isa = PBXBuildFile; fileRef = BCF361B91CD343D1001A5245 /* images */; };
 		BCFBCF301CD358FE004A2CE8 /* MFResManagerSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFBCF2F1CD358FE004A2CE8 /* MFResManagerSettingsViewController.m */; };
 		BCFBCF341CD36336004A2CE8 /* missing_image.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFBCF321CD36336004A2CE8 /* missing_image.png */; };
 		BCFBCF351CD36336004A2CE8 /* missing_movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BCFBCF331CD36336004A2CE8 /* missing_movie.mp4 */; };
+		BCFE1C911CD542F5005012DD /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BCFE1C901CD542F5005012DD /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53744DBFD9B33BB4D1EFBF8C /* Pods-MFResManager Tester.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFResManager Tester.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MFResManager Tester/Pods-MFResManager Tester.debug.xcconfig"; sourceTree = "<group>"; };
+		AF9B251344D1587C0BAB9567 /* Pods-MFResManager Tester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFResManager Tester.release.xcconfig"; path = "Pods/Target Support Files/Pods-MFResManager Tester/Pods-MFResManager Tester.release.xcconfig"; sourceTree = "<group>"; };
 		BC310E001CD4E725009CE91B /* toc.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = toc.plist; sourceTree = "<group>"; };
 		BC310E021CD4FBCF009CE91B /* interface.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = interface.plist; sourceTree = "<group>"; };
 		BC310E041CD52342009CE91B /* CONTRIBUTE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTE.md; sourceTree = "<group>"; };
@@ -74,6 +77,8 @@
 		BCFBCF2F1CD358FE004A2CE8 /* MFResManagerSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFResManagerSettingsViewController.m; sourceTree = "<group>"; };
 		BCFBCF321CD36336004A2CE8 /* missing_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = missing_image.png; sourceTree = "<group>"; };
 		BCFBCF331CD36336004A2CE8 /* missing_movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = missing_movie.mp4; sourceTree = "<group>"; };
+		BCFE1C901CD542F5005012DD /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E6A8922CEB6FBF34AAF789C7 /* libPods-MFResManager Tester.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MFResManager Tester.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCF361A91CD33F50001A5245 /* MFResManager.framework in Frameworks */,
+				84B48C6CE32C02D00829C364 /* libPods-MFResManager Tester.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,9 +107,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39133C4BA025E2D4797941FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6A8922CEB6FBF34AAF789C7 /* libPods-MFResManager Tester.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BCF361341CD331DA001A5245 = {
 			isa = PBXGroup;
 			children = (
+				BCFE1C901CD542F5005012DD /* Podfile */,
 				BC310E041CD52342009CE91B /* CONTRIBUTE.md */,
 				BC310E051CD52342009CE91B /* LICENSE */,
 				BC310E061CD52343009CE91B /* readme.md */,
@@ -113,6 +127,8 @@
 				BCF3615C1CD331DB001A5245 /* MFResManager TesterTests */,
 				BCF361671CD331DB001A5245 /* MFResManager TesterUITests */,
 				BCF3613E1CD331DA001A5245 /* Products */,
+				E26DBFB13E11167F04FEDC72 /* Pods */,
+				39133C4BA025E2D4797941FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -186,6 +202,15 @@
 			path = missing_resources;
 			sourceTree = "<group>";
 		};
+		E26DBFB13E11167F04FEDC72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53744DBFD9B33BB4D1EFBF8C /* Pods-MFResManager Tester.debug.xcconfig */,
+				AF9B251344D1587C0BAB9567 /* Pods-MFResManager Tester.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -193,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCF3616D1CD331DB001A5245 /* Build configuration list for PBXNativeTarget "MFResManager Tester" */;
 			buildPhases = (
+				F59B4487B8C513849D892039 /* Check Pods Manifest.lock */,
 				BCF361391CD331DA001A5245 /* Sources */,
 				BCF3613A1CD331DA001A5245 /* Frameworks */,
 				BCF3613B1CD331DA001A5245 /* Resources */,
+				00A7F34CA51B17E712EE3413 /* Embed Pods Frameworks */,
+				BBABE7BBADFDA5090EDDB23B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -289,6 +317,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCFE1C911CD542F5005012DD /* Podfile in Resources */,
 				BCF361BA1CD343D1001A5245 /* images in Resources */,
 				BC310E011CD4E725009CE91B /* toc.plist in Resources */,
 				BC310E031CD4FBCF009CE91B /* interface.plist in Resources */,
@@ -316,6 +345,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00A7F34CA51B17E712EE3413 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MFResManager Tester/Pods-MFResManager Tester-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBABE7BBADFDA5090EDDB23B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MFResManager Tester/Pods-MFResManager Tester-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F59B4487B8C513849D892039 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BCF361391CD331DA001A5245 /* Sources */ = {
@@ -469,6 +546,7 @@
 		};
 		BCF3616E1CD331DB001A5245 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53744DBFD9B33BB4D1EFBF8C /* Pods-MFResManager Tester.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = "";
@@ -483,6 +561,7 @@
 		};
 		BCF3616F1CD331DB001A5245 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF9B251344D1587C0BAB9567 /* Pods-MFResManager Tester.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = "";

@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../../MooseFactory Frameworks/MFResManager/MFResManager.xcodeproj">
+      location = "group:MFResManager Tester.xcodeproj">
    </FileRef>
    <FileRef
-      location = "container:MFResManager Tester.xcodeproj">
+      location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
