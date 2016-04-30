@@ -11,7 +11,6 @@
 #import <MFResManager/MFResManager.h>
 
 @interface MFResManagerSettingsViewController ()
-
 @end
 
 @implementation MFResManagerSettingsViewController

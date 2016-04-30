@@ -17,11 +17,21 @@ static NSArray *cities;
 static NSArray *languages;
 
 @implementation MFKeyResGetterViewController
+{
+    // Demonstrates the usage of another MFKeyResGetter for interface elements
+    // This one defines the titles for the cities segmented control
+    MFKeyResGetter* interfaceGetter;
+}
+
+-(void)viewDidLoad
+{
+    interfaceGetter = [[MFKeyResGetter alloc] initWithTocName:@"interface"];
+}
 
 -(void)awakeFromNib
 {
     cities = @[@"paris",@"prague",@"beijing",@"dubai",@"bug_town"];
-    languages = @[@"en",@"fr",@"cz",@"zh",@"ar",@"it"];
+    languages = @[@"en",@"fr",@"cz",@"zh",@"ar"];
     [MFKeyResGetter defaultMediaGetter].baseDirectoryPath = @"images";
 }
 
@@ -29,6 +39,14 @@ static NSArray *languages;
 {
     self.language = languages[((UISegmentedControl*)sender).selectedSegmentIndex];
     [self updateInterface];
+    
+    NSArray* cityNames = [interfaceGetter entryForKey:@"city_menu" group:NULL language:self.language];
+    if (cityNames) {
+        int seg=0;
+        for (NSString* cityName in cityNames) {
+            [_citiesControl setTitle:cityName forSegmentAtIndex:seg++];
+        }
+    }
 }
 
 -(void)updateInterface

@@ -480,6 +480,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Key Res Getter" image="first" id="QEH-MK-xuh"/>
                     <connections>
+                        <outlet property="citiesControl" destination="17Z-90-mjN" id="uhd-fT-Dqa"/>
                         <outlet property="imageView" destination="H6m-gk-1pv" id="caB-Ks-sUY"/>
                         <outlet property="infoLabel" destination="f5W-X6-GjD" id="LBT-kD-gOX"/>
                         <outlet property="label" destination="Cah-TI-TXm" id="JnL-iU-q7T"/>
