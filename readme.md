@@ -42,6 +42,21 @@ Change the settings to see the various behaviors.
 
 ![ScreenShot1](https://www.moosefactory.eu/resources/MFResGetterTester_Screenshots/MFKeyResGetter.png)
 
+###Access the logs
+
+Launch iTunes, select your device and go down the apps section.
+
+In the AppSharing section, select 'MFResGetter Tester'. The log files are here
+
+![ScreenShot1](https://www.moosefactory.eu/resources/MFResGetterTester_Screenshots/iTunesSharing.png)
+
+MFResGetter.log     : Misc errors, NULL urls, file not founds…
+Missing Keys.log    : Query with missing keys in the table of content
+MissingImages.log   : Missing images
+
+This let you run an app session, and collect all media access issues much faster.
+
+*Note that this framework will still evolve - For example, a missing image should be only logged once.. Look forward to upcoming versions.*
 
 ##Developers
 ---------------
