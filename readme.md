@@ -15,7 +15,6 @@ MooseFactory Software
 ## Introduction
 ---------------
 **MFResManager** is a compact iOS Utility Library providing an alternate way to access ressources in an application.
-This framework is composed of only four classes.
 
 This application demonstrates some feature.
 It's a tabbed app with three screens :
@@ -27,15 +26,21 @@ This screen demonstrate the usage of the basic MFResGetter class.
 It simply tries to load some images in the bundle and display them.
 Change the settings to see the various behaviors.
 
+![ScreenShot1](https://www.moosefactory.eu/resources/MFResGetterTester_Screenshots/MFResGetter.png)
+
+
 ###MFKeyResGetter Tester View
 
 This screen demonstrate the usage of the MFKeyResGetter class.
 
-It loads some images and localized texts by accessing the table of content file ( toc.plist )
+- It loads some images and localized texts by accessing the table of content file ( toc.plist )
+- It loads localized interface texts via a dedicated instance of MFKeyResGetter
 
-*Note that images can be localized as well, the same way texts are.*
+*Note that images can be localized as well, the same way texts are. This is not demonstrated in this sample*
 
 Change the settings to see the various behaviors.
+
+![ScreenShot1](https://www.moosefactory.eu/resources/MFResGetterTester_Screenshots/MFKeyResGetter.png)
 
 
 ##Developers
